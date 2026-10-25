@@ -1,0 +1,10 @@
+{
+  "name": "growthify-ngo-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing website for the Growthify NGO Suite (static HTML, no build step)",
+  "scripts": {
+    "dev": "npx --yes serve@14.2.4 . -l 5500",
+    "start": "npx --yes serve@14.2.4 . -l 5500"
+  }
+}
