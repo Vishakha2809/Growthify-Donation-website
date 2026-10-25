@@ -37,9 +37,28 @@ has to press send.
 To change the number or email, edit `CONTACT` at the top of `main.js` and the
 `tel:` / `mailto:` links in `index.html`.
 
+## Pricing
+
+₹699 per computer per month. To change it, edit `PRICE_PER_PC` in `main.js`
+and the ₹699 text in `index.html` (hero note, pricing card, FAQ, meta
+description).
+
+## Photos
+
+Free photos from Unsplash (Unsplash License: free to use, credit not required):
+
+| File | Photographer |
+| --- | --- |
+| `assets/img/hero-children.jpg` | LJ |
+| `assets/img/school-students.jpg` | Akshar Dave |
+| `assets/img/volunteers-packing.jpg` | Ismael Paramo |
+| `assets/img/office-laptop.jpg` | Sweet Life |
+
 ## Things to update before going live
 
 - The product name "Growthify NGO Suite" is a working name; search and replace
   it in `index.html` if you pick another.
 - The dashboard and receipt pictures are drawn in HTML with sample data.
   Real screenshots of the software can replace them later.
+- Photos of your own NGO clients (with their permission) would look more
+  genuine than stock photos; just replace the files in `assets/img/`.

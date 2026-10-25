@@ -48,6 +48,20 @@ if ("IntersectionObserver" in window) {
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
+// ---------------------------------------------------------------- pricing
+const PRICE_PER_PC = 699;
+const pcInput = document.getElementById("pc-count");
+const rupees = (n) => "₹" + n.toLocaleString("en-IN");
+
+const updatePrice = () => {
+  const count = Number(pcInput.value);
+  document.getElementById("pc-count-value").textContent = count;
+  document.getElementById("calc-month").textContent = rupees(count * PRICE_PER_PC);
+  document.getElementById("calc-year").textContent = rupees(count * PRICE_PER_PC * 12);
+};
+pcInput.addEventListener("input", updatePrice);
+updatePrice();
+
 // ---------------------------------------------------------------- demo form
 // The site has no server: the request is sent to Growthify on WhatsApp or by
 // email, with all the details already filled in.
