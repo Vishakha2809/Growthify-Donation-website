@@ -1434,17 +1434,13 @@ a.contact-card:hover {
   right: 24px;
   bottom: 24px;
   z-index: 45;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  height: 58px;
-  padding: 0 22px 0 16px;
-  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   background: #25d366;
   color: #fff;
-  font-weight: 700;
-  font-size: 15px;
-  text-decoration: none;
   box-shadow: 0 12px 28px -8px rgb(37 211 102 / 0.65);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -1465,9 +1461,8 @@ a.contact-card:hover {
 }
 
 .wa-float svg {
-  width: 28px;
-  height: 28px;
-  flex: none;
+  width: 32px;
+  height: 32px;
 }
 
 @keyframes wa-pulse {
@@ -1937,16 +1932,11 @@ a.contact-card:hover {
   body {
     padding-bottom: 72px;
   }
-  /* icon only, above the Call / Book Demo bar */
+  /* above the Call / Book Demo bar */
   .wa-float {
     right: 16px;
     bottom: 86px;
     width: 56px;
     height: 56px;
-    padding: 0;
-    justify-content: center;
-  }
-  .wa-float__label {
-    display: none;
   }
 }
