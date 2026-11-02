@@ -8,7 +8,7 @@
       name="description"
       content="Record money and in-kind donations, print 80G-ready receipts with your NGO's logo, SMS receipts to donors and export Excel reports. ₹699 per computer per month. Book a free demo with Growthify Services, Indore."
     />
-    <meta name="theme-color" content="#6D28D9" />
+    <meta name="theme-color" content="#0B0B0D" />
     <meta property="og:title" content="Growthify NGO Suite: Donation & Receipt Software for NGOs" />
     <meta
       property="og:description"
@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=Poppins:wght@400;500;600;700;800&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -30,7 +30,7 @@
       <div class="container nav__inner">
         <a href="#top" class="brand" aria-label="Growthify NGO Suite home">
           <span class="brand__mark" aria-hidden="true">
-            <svg viewBox="0 0 32 32"><path d="M16 27s-10-6.2-10-13.4C6 9.4 9 7 12.2 7c1.9 0 3 1 3.8 2.2C16.8 8 17.9 7 19.8 7 23 7 26 9.4 26 13.6 26 20.8 16 27 16 27Z" fill="currentColor"/><path d="M11 15.5h3l1.5-3 2 6 1.5-3h2" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <svg viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="#F5F5F6"/><path d="M32 50C19 50 12 41 12 29c13 0 20 7 20 21Z" fill="#0B0B0D"/><path d="M32 50c13 0 20-9 20-21-13 0-20 7-20 21Z" fill="#0B0B0D" fill-opacity=".82"/><circle cx="32" cy="17" r="7.5" fill="#FF3131"/></svg>
           </span>
           <span class="brand__text">Growthify <strong>NGO Suite</strong></span>
         </a>
@@ -57,6 +57,8 @@
         <div class="hero__glow" aria-hidden="true"></div>
         <div class="container hero__grid">
           <div class="hero__copy">
+            <span class="pill">Built in Indore by Growthify Services</span>
+            <br />
             <span class="kicker">Donations · Receipts · Reports</span>
             <h1>
               Every donation counted,
@@ -83,22 +85,51 @@
             </p>
           </div>
 
-          <div class="hero__visual">
-            <div class="hero__ring" aria-hidden="true"></div>
-            <figure class="hero__photo">
-              <img
-                src="assets/img/hero-children.jpg"
-                alt="Smiling children standing together outside their home"
-                width="1200"
-                height="857"
-                fetchpriority="high"
-              />
-            </figure>
-            <div class="float-card float-card--quote">
-              <span>Receipt ready</span>
-              <strong>in seconds.</strong>
-              <small>WITH YOUR LOGO &amp; 80G</small>
+          <div class="hero__visual hero__visual--ui" aria-hidden="true">
+            <div class="hero__ring"></div>
+
+            <div class="receipt hero-receipt">
+              <div class="receipt__head">
+                <div class="receipt__logo">♥</div>
+                <div class="receipt__org">
+                  <small>Registration No. &amp; Date : 1234/09 - 06 May 2009</small>
+                  <strong>YOUR NGO NAME</strong>
+                  <small>Your address, City, State</small>
+                </div>
+                <div class="receipt__no">
+                  <b>RECEIPT</b>
+                  <small>No.: 128M-2026/2027</small>
+                  <small>Date: 26/10/26</small>
+                </div>
+              </div>
+              <div class="receipt__line"><label>Received with thanks from</label><span>Ramesh Sharma</span></div>
+              <div class="receipt__line"><label>The sum of Rs. in words</label><span>five thousand one hundred /-</span></div>
+              <div class="receipt__foot">
+                <div><label>Payment Mode :</label> UPI</div>
+                <div class="receipt__amount">Rs. 5100 /-</div>
+              </div>
+              <div class="receipt__80g">Donation Exempted U/S 80G of IT ACT</div>
             </div>
+
+            <div class="phone">
+              <div class="phone__notch"></div>
+              <div class="phone__head"><b>Your NGO</b><small>SMS</small></div>
+              <div class="phone__body">
+                <div class="sms">
+                  <p>Your NGO: Download your donation receipt: <u>receipt.link/128M</u></p>
+                  <span>10:42 am</span>
+                </div>
+                <div class="sms">
+                  <p>Thank you, Ramesh ji, for your donation of &#8377;5,100.</p>
+                  <span>10:42 am</span>
+                </div>
+                <div class="phone__file">
+                  <i>PDF</i>
+                  <div><strong>Receipt 128M</strong><small>Tap to download</small></div>
+                </div>
+              </div>
+            </div>
+
             <div class="float-card float-card--sms">
               <span class="float-card__tick">✓</span>
               <div>
@@ -347,6 +378,31 @@
         </div>
       </section>
 
+      <!-- ================= why it matters ================= -->
+      <section class="section section--soft">
+        <div class="container">
+          <div class="section__head">
+            <span class="eyebrow">Why it matters</span>
+            <h2>Behind every receipt is <em>someone who gave</em></h2>
+            <p>Every rupee reaches a meal, a classroom or a village. Your records should be as careful as the work.</p>
+          </div>
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img src="assets/img/community-meal.jpg" alt="Villagers sharing a meal together on a hillside" width="1200" height="821" loading="lazy" />
+              <figcaption><strong>Community meals</strong>Every plate served, every donor remembered</figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <img src="assets/img/volunteers-shirts.jpg" alt="Three volunteers in yellow Volunteers T-shirts watching an event" width="1200" height="800" loading="lazy" />
+              <figcaption><strong>Volunteers</strong>Small teams who need simple tools</figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <img src="assets/img/school-girls.jpg" alt="Two schoolgirls in uniform writing in their notebooks" width="1200" height="675" loading="lazy" />
+              <figcaption><strong>Schools &amp; hostels</strong>Fees and support receipted properly</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
       <!-- ================= who / security ================= -->
       <section class="section section--dark">
         <div class="container">
@@ -369,10 +425,10 @@
             </div>
             <div class="who__photos">
               <figure class="photo-card">
-                <img src="assets/img/school-students.jpg" alt="Smiling school students in uniform sitting together" width="1200" height="803" loading="lazy" />
+                <img src="assets/img/school-classroom.jpg" alt="Schoolboys in uniform sitting at their desks in a classroom" width="1200" height="675" loading="lazy" />
               </figure>
               <figure class="photo-card">
-                <img src="assets/img/volunteers-packing.jpg" alt="Volunteers packing food donation bags under a canopy" width="1100" height="733" loading="lazy" />
+                <img src="assets/img/community-women.jpg" alt="Women smiling as they work together in a vegetable field" width="1200" height="800" loading="lazy" />
               </figure>
             </div>
           </div>
@@ -570,7 +626,7 @@
         <div>
           <a href="#top" class="brand brand--light">
             <span class="brand__mark" aria-hidden="true">
-              <svg viewBox="0 0 32 32"><path d="M16 27s-10-6.2-10-13.4C6 9.4 9 7 12.2 7c1.9 0 3 1 3.8 2.2C16.8 8 17.9 7 19.8 7 23 7 26 9.4 26 13.6 26 20.8 16 27 16 27Z" fill="currentColor"/><path d="M11 15.5h3l1.5-3 2 6 1.5-3h2" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="#F5F5F6"/><path d="M32 50C19 50 12 41 12 29c13 0 20 7 20 21Z" fill="#0B0B0D"/><path d="M32 50c13 0 20-9 20-21-13 0-20 7-20 21Z" fill="#0B0B0D" fill-opacity=".82"/><circle cx="32" cy="17" r="7.5" fill="#FF3131"/></svg>
             </span>
             <span class="brand__text">Growthify <strong>NGO Suite</strong></span>
           </a>
@@ -603,7 +659,7 @@
         </div>
       </div>
       <div class="container footer__bottom">
-        <span>© <span id="year">2026</span> Growthify Services. All rights reserved.</span>
+        <span>© <span id="year">2026</span> Growthify Services. All rights reserved. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>.</span>
         <a href="https://growthifyservices.in/" target="_blank" rel="noopener">growthifyservices.in</a>
       </div>
     </footer>
